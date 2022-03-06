@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Length Optimzier</title>
+    <link href="./project_assets/face.ico" rel="icon">
+    <link href="./project_style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="lenx_01" class="modal">
+        <span id="close_01" class="close">&times;</span>
+        <img class="modal-content" id="len_01">
+        <div id="caption_home"></div>
+    </div>
+
+    <div id="lenx_02" class="modal">
+        <span id="close_02" class="close">&times;</span>
+        <img class="modal-content" id="len_02">
+        <div id="caption_trans"></div>
+    </div>
+
+    <div id="lenx_03" class="modal">
+        <span id="close_03" class="close">&times;</span>
+        <img class="modal-content" id="len_03">
+        <div id="caption_color"></div>
+    </div>
+
+    <div id="lenx_04" class="modal">
+        <span id="close_04" class="close">&times;</span>
+        <img class="modal-content" id="len_04">
+        <div id="caption_paint"></div>
+    </div>
+
+    <div id="lenx_05" class="modal">
+        <span id="close_05" class="close">&times;</span>
+        <img class="modal-content" id="len_05">
+        <div id="caption_paint"></div>
+    </div>
+
+    <div id="lenx_06" class="modal">
+        <span id="close_06" class="close">&times;</span>
+        <img class="modal-content" id="len_06">
+        <div id="caption_paint"></div>
+    </div>
+
+
+    <div class="project_h text-center">
+        <h2>Length Optimizer</h2>
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-left: 1%;margin-right: auto; background-color: #EEE;">
+            <div class="column" style="padding: 2%;">
+                <!-- <video width="250" height="400" controls poster="./project_assets/Length_Optimzer/length_optimizer_v1_01.png"
+                    class="embed-responsive" src="./project_assets/Length_Optimzer/Length Optimizer.mp4" type="video/mp4"> -->
+
+                <p style="font-size: 1rem;"></br>
+                    The Application consists of two main windows input window and reuslt display window</br>
+                    In input window user need to add following items --</br>
+                    1) Part Name/Number , Required length, Quantity of lengtth</br>
+                    2) Then click on arrange button where it is grouped according to the part name/number </br>
+                    3) Add maximum element length availbale in the market/available</br>
+                    4) Add Cutting Allowance reqiuired (min\default = 5mm)</br>
+                    5) Result can viewed by clicking 'Show' button of the respective group
+            </div>
+
+            <div class="column">
+                <iframe width="450" height="400" src="https://www.youtube.com/embed/rasnN7aeSFs?rel=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="row">
+                <h4 class="screenshot">Length Optimzer v1 </h4>
+                <img style="padding-left: 1%; width: 50%;" id="len_optimizer_v1_01"
+                    src="./project_assets/Length_Optimzer/length_optimizer_v1_01.png" alt="Length Optimzer v1"
+                    class="img-responsive">
+                <img style="padding-left: 1%; width: 50%;" id="len_optimizer_v1_02"
+                    src="./project_assets/Length_Optimzer/length_optimizer_v1_02.png" alt="Length Optimzer v1"
+                    class="img-responsive">
+
+            </div>
+
+            <div class="row">
+                <h4 class="screenshot">Length Optimzer v2</h4>
+                <img style="padding-left: 1%; width: 50%;" id="len_optimizer_v2_01"
+                    src="./project_assets/Length_Optimzer/length_optimizer_01.png" alt="Length Optimzer v2"
+                    class="img-responsive">
+                <img style="padding-left: 1%; width: 50%;" id="len_optimizer_v2_02"
+                    src="./project_assets/Length_Optimzer/length_optimizer_options.png" alt="Length Optimzer v2"
+                    class="img-responsive">
+                <img style="padding-left: 1%; width: 50%;" id="len_optimizer_v2_03"
+                    src="./project_assets/Length_Optimzer/length_optimizer_06.png" alt="Length Optimzer v2"
+                    class="img-responsive">
+                <img style="padding-left: 1%; width: 50%;" id="len_optimizer_v2_04"
+                    src="./project_assets/Length_Optimzer/length_optimizer_07.png" alt="Length Optimzer v2"
+                    class="img-responsive">
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- class="embed-responsive embed-responsive-16by9" -->
+
+    <div class="pagination">
+        <a href="./v_audio_player.html">&laquo;</a>
+        <a href="./v_audio_player.html">1</a>
+        <a href="./doc_creator.html">2</a>
+        <a href="./image_editor.html">3</a>
+        <a href="./calculator.html">4</a>
+        <a id="item_active" href="./length_optimizer_v1.html">5</a>
+        <a href="./udemy_projects.html">6</a>
+        <a href="./other_projects.html">7</a>
+        <a href="./other_projects.html">&raquo;</a>
+    </div>
+    <script src="./length_optimizer_script.js"></script>
+</body>
+
+</html>

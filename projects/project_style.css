@@ -1,0 +1,224 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
+body{
+  /* background-color:  #393E46; */
+  background-color: white;/*#DBE2EF;*/
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+.project_h{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size:medium;
+    background-image: linear-gradient(to right ,#ffffff, #3f72af, #3f72af,#3f72af, #3f72af,#ffffff);
+    /* #00ADB5; */
+    color: #fff;
+    /* margin-left: 20%;
+    margin-right: 20%;
+    transition:margin 1s; */
+    text-transform: uppercase;
+  }
+  
+  .screenshot{
+    width: 100%;
+    text-align: center;
+   
+  }
+ 
+
+  .embed-responsive{
+    width: 100%;
+    align-content: center;
+  }
+
+  .embed-responsive-divide{
+    width: 50%;
+    align-content: center;
+  }
+
+  .img-responsive{
+    background-color: rgba(0,0,0,0);
+    width: 30%;
+    height: auto;
+  }
+
+
+  .row {
+    margin: 2%;
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  #row-divide{
+    width: 25%;
+  }
+
+
+  .pagination {
+    justify-content: center;
+    margin-top: 5%;
+    padding-bottom: 1%;
+
+  }
+  
+  .pagination a {
+    color: black;
+    float: center;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+
+  .pagination a.active {
+    background-color: #3F72AF;
+    color: white;
+    border-radius: 5px;
+  }
+
+  #item_active{
+    background-color: #3F72AF;
+    color: white;
+  }
+
+  .pagination a:hover:not(.active) {
+    background-color: #3F72AF;
+  color: #fff;}
+
+
+  /* Style the Image Used to Trigger the Modal ----------------------------------------------*/
+#img_editor_ui, #img_trans, #img_color, #img_paint, #img_filter, #cal_01, #cal_02, #audio_01, #audio_02, #audio_03, 
+#audio_04, #len_optimizer_v1_01, #len_optimizer_v1_02, #len_optimizer_v2_01, #len_optimizer_v2_02, #len_optimizer_v2_03, #len_optimizer_v2_04,
+#doc_creator_ui, #doc_creator_tools_01, #doc_creator_02, #doc_creator_03, #doc_creator_pdf_edit{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img_editor_ui:hover {opacity: 0.7;}
+#img_trans:hover {opacity: 0.7;}
+#img_color:hover {opacity: 0.7;}
+#img_paint:hover {opacity: 0.7;}
+#img_filter:hover {opacity: 0.7;}
+#cal_01:hover {opacity: 0.7;}
+#cal_02:hover {opacity: 0.7;}
+#audio_01:hover{opacity: 0.7;}
+#audio_02:hover{opacity: 0.7;}
+#audio_03:hover{opacity: 0.7;}
+#audio_04:hover{opacity: 0.7;}
+#len_optimizer_v1_01:hover{opacity: 0.7;}
+#len_optimizer_v1_02:hover{opacity: 0.7;}
+#len_optimizer_v2_01:hover{opacity: 0.7;}
+#len_optimizer_v2_02:hover{opacity: 0.7;}
+#len_optimizer_v2_03:hover{opacity: 0.7;}
+#len_optimizer_v2_04:hover{opacity: 0.7;}
+#doc_creator_ui:hover{opacity: 0.7;}
+#doc_creator_tools_01:hover{opacity: 0.7;}
+#doc_creator_tools_02:hover{opacity: 0.7;}
+#doc_creator_tools_03:hover{opacity: 0.7;}
+#doc_creator_pdf_edit:hover{opacity: 0.7;}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  background-color: rgba(0,0,0,0);
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Modal Content (Image) */
+.modal-content-cal {
+  margin: auto;
+  display: block;
+  background-color: rgba(0,0,0,0);
+  width: 80%;
+  max-width:900px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+  @media (max-width: 992px) {
+
+
+  }
+
+  @media(max-width:768px){
+
+  }
+
+
+  @media (max-width: 576px) {
+  }
+  

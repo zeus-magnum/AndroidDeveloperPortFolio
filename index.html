@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="./assets/face.ico" rel="icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PORTFOLIO CS</title>
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+
+<body id="nav_bar" data-spy=scroll data-target=".navbar" data-offest="-10">
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <div id="nav-container" class="container main">
+        <nav class="navbar navbar-expand-sm  navbar-dark fixed-top">
+
+            <a class="navbar-brand" href="#nav about">
+                <img width="30px" src=".\assets\face.ico">
+                PORTFOLIO
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="#nav_home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav_projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav_skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav_about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav_contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!--Backgroud Image Slider----------------------------->
+    <div class="carousel-inner" id="nav_home">
+        <!-- <img src="./static/assets/space.jpg"> -->
+        <div class="carousel-caption">
+            <!--Make Caption typing animation-->
+            <h1 class="display-2">I'm Allwin Jose C</h1>
+            <h3>Android , Python, Java Developer </h3>
+        </div>
+
+        <div>
+            <canvas id="canvas1"></canvas>
+            <script src="./canvas_script.js"></script>
+        </div>
+    </div>
+
+
+
+    <!--Projects Section----------------------------------->
+    <div id="nav_projects">
+        <div class="project_h text-center">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src=".\assets\android_projects\vaudioplayer.png" alt="Card image"
+                        class="img-responsive">
+                    <div class="card-body">
+                        <h4 class="card-title">V Audio Player</h4>
+                        <p class="card-text">Android Studio, Java </p>
+                        <button id="btn-1" class="btn btn-primary">
+                            <a href="./projects/v_audio_player.html" target="_blank">
+                                Details
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src=".\assets\android_projects\doc_creator_thumb.png" alt="Card image"
+                        class="img-responsive">
+                    <div class="card-body">
+                        <h4 class="card-title">Doc Creator</h4>
+                        <p class="card-text">Android Studio, Java</p>
+                        <button id="btn-2" class="btn btn-primary">
+                            <a href="./projects/doc_creator.html" target="_blank">
+                                Details
+                            </a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src=".\assets\android_projects\Image_Editor.png" alt="Card image"
+                        class="img-responsive">
+                    <div class="card-body">
+                        <h4 class="card-title">Image Editor</h4>
+                        <p class="card-text">Android Studio, Java</p>
+                        <button id="btn-3" class="btn btn-primary">
+                            <a href="./projects/image_editor.html" target="_blank">
+                                Details
+                            </a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src=".\assets\android_projects\calculator.png" alt="Card image"
+                        class="img-responsive">
+                    <div class="card-body">
+                        <h4 class="card-title">Calculator</h4>
+                        <p class="card-text">Andoid Studio, Java </p>
+                        <button id="btn-1" class="btn btn-primary">
+                            <a href="./projects/calculator.html" target="_blank">
+                                Details
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src=".\assets\python_projects\length_optimizer_v2.JPG" alt="Card image"
+                        class="img-responsive">
+                    <div class="card-body">
+                        <h4 class="card-title">Length Optimizer</h4>
+                        <p class="card-text">Python, Tkinter</p>
+                        <button id="btn-2" class="btn btn-primary">
+                            <a href="./projects/length_optimizer_v1.html" target="_blank">
+                                Details</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/python_projects/udemy.png" alt="Card image"
+                        class="img-responsive">
+                    <div class="card-body">
+                        <h4 class="card-title">Udemy Projects</h4>
+                        <p class="card-text">Android Studio, Java</p>
+                        <button id="btn-3" class="btn btn-primary">
+                            <a href="./projects/udemy_projects.html" target="_blank">
+                                Details
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="nav_skills">
+            <div class="project_h text-center">
+                <h2>Tools and Languages</h2>
+            </div>
+            <div class="container-fluid padding">
+                <div class="row text-center padding">
+
+                    <div class="col">
+                        <img height="80px" src="./assets/android_studio.png">
+                        <h5>Android Studio </h5>
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/java_icon.png">
+                        <h5>Java</h5>
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/python_icon_2.png">
+                        <h5>Python 3.x</h5>
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/opencv_2.png">
+                        <h5>Opencv</h5>
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/github.png">
+                        <h5>GitHub</h5>
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/bootstrap.png">
+                        <h5> Bootstrap</h5>
+                    </div>
+
+                </div>
+                <div class="row text-center padding">
+                    <div class="col">
+                        <img height="80px" src="./assets/tensorflow_icon.png">
+                        <h5>Tensorflow</h5>
+
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/numpy_icon.png">
+                        <h5>Numpy</h5>
+
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/sklearn_icon.png">
+                        <h5>Sklearn</h5>
+
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/matplotlib_icon.png">
+                        <h5>Matplotlib</h5>
+                    </div>
+                    <hr class="my-4">
+                </div>
+
+
+                <div class="project_h text-center">
+                    <h2>Design Tools</h2>
+
+                </div>
+                <div class="row text-center padding">
+
+                    <div class="col">
+                        <img height="80px" src="./assets/figma_icon.png">
+                        <h5>Figma</h5>
+
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/photoshop_icon.png">
+                        <h5>Photoshop</h5>
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/pencil_icon.png">
+                        <h5>Pencil</h5>
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/adobe_illustrator.png">
+                        <h5>Illustrator</h5>
+                    </div>
+                    <div class="col">
+                        <img height="80px" src="./assets/blender_icon.png">
+                        <h5> Blender</h5>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--About Me-->
+        <div id="nav_about">
+            <div class="project_h text-center">
+                <h2>About me</h2>
+            </div>
+            <div class="container" style="margin-left: 10%; background-color: #EEE;margin-top: 2%;">
+                <div style=" margin-top: 2%;">
+
+                    <div class="row" style="padding-top: 1%;">
+                        <img src="./assets/profil.jpg" width="200px" alt="my_photo"
+                            style="margin-left: auto;margin-right: auto; display: block; ;border-radius: 50%;">
+                    </div>
+                    <h4 class="text-center">Allwin Jose C, B.tech Mechanical </h4>
+                    <div class="row" style="padding-bottom: 1%;">
+                        <p style="font-size: 1.2rem;"> I'm self motivated hardworking person have experience in
+                            teaching, designing,
+                            modelling, programming and developing projects in many fileds. I
+                            looking forward to work in a company where i can utilize my skills to meet the
+                            organizational goals.
+                        </p>
+                    </div>
+
+
+                    <div class="row" style="padding-top: 1%;">
+                        <h5 style="padding-top: 1%;">Experience</h5>
+                        <p style="text-align: left;font-size: 1.2rem;">
+                            <br>
+                            * Worked as Cad Engineer and project guide at Cadd Center Thrissur for 2 yrs-
+                            2016-2018</br>
+                            * Design Engineer at Spectratech Innovations,Thrissur-1yrs, 2018-2019
+                        </p>
+                        <h5>Certifications </h5>
+                        <p style="text-align: left;font-size: 1.2rem;">
+                            <br>
+                            * Complete Python Developer: Zero to Mastery from Udemy-2020</br>
+                            * Complete Machine Learning & Data Science BootCamp from Udemy-2021
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Contact ME-->
+
+    <div id="nav_contact">
+        <div class="project_h text-center">
+            <h2>Contact</h2>
+        </div>
+        <div class="section-container-spacer text-center">
+            <ul class="list-unstyled">
+                <!--Increase the font size-->
+
+                <li>
+                    <span class="fa-icon det">
+                        <p> <i class="fa fa-envelope"></i>allwin.jose.c@gmail.com</p>
+                    </span>
+                </li>
+                <li>
+                    <span class="fa-icon det">
+                        <p><i class="fa fa-map-marker"></i>Thrissur,Kerala-680618</p>
+                    </span>
+                </li>
+                <li>
+                    <span class="fa-icon det">
+                        <p><i class="fa fa-phone"></i> +91 8281512816</p>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <!-- <div class="project_h text-center text-dark">
+            <h2>Connect</h2>
+        </div> -->
+        <div class="container-fluid" style="margin-bottom: -2%;">
+            <div class=row>
+                <div class="col 3">
+                    <a href="http://www.facebook.com" target="_blank" title="" class="fa-icon">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="col 3">
+                    <a href="http://www.twitter.com" target="_blank" title="" class="fa-icon">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="col 3">
+                    <a href="http://www.linkedin.com" target="_blank" title="" class="fa-icon">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+
+                <div class="col 3">
+                    <a href="http://www.instagram.com" target="_blank" title="" class="fa-icon">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

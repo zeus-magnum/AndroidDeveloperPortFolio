@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Calculator</title>
+    <link href="./project_assets/face.ico" rel="icon">
+    <link href="./project_style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="cal_ui_01" class="modal">
+        <span id="cal_01_close" class="close">&times;</span>
+        <img class="modal-content-cal" id="cal_uic_01">
+        <div id="caption_01"></div>
+    </div>
+
+    <div class="project_h text-center">
+        <h2>Calculator</h2>
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-left: 2%;margin-right: auto; background-color: #EEE;">
+           
+            <div class="column">
+                <p style="font-size: 1rem;padding: 1%;"></br>
+                    A simple calculator to perform basic mathematical operations
+
+                <div class="row">
+                    <h4 class="screenshot">Screenshots</h4>
+                    <img style="padding-left: 1%; width: 60%;" id="cal_01" src="project_assets/Calculator/cal_image.png"
+                        alt="Calculator" class="img-responsive">
+                </div>
+            </div>
+
+            <div class="column" style="padding: 1%;">
+                <!-- <video width="250" height="400" controls poster="./project_assets/calculator.png"
+                    class="embed-responsive" src="./project_assets/Calculator/calculator_new.mp4" type="video/mp4"> -->
+    
+                    <iframe width="250" height="400" src="https://www.youtube.com/embed/ssNVAEqpCCk?rel=0&autoplay=1&mute=1" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- class="embed-responsive embed-responsive-16by9" -->
+    <div class="pagination">
+        <a href="./v_audio_player.html">&laquo;</a>
+        <a href="./v_audio_player.html">1</a>
+        <a href="./doc_creator.html">2</a>
+        <a href="./image_editor.html">3</a>
+        <a id="item_active" href="./calculator.html">4</a>
+        <a href="./length_optimizer_v1.html">5</a>
+        <a href="./udemy_projects.html">6</a>
+        <a href="./other_projects.html">7</a>
+        <a href="./other_projects.html">&raquo;</a>
+    </div>
+    <script src="./calculator_script.js"></script>
+</body>
+
+</html>

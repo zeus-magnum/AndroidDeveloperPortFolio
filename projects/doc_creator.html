@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Doc-Creator</title>
+    <link href="./project_assets/face.ico" rel="icon">
+    <link href="./project_style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="docx_ui" class="modal">
+        <span id="doc_ui_close" class="close">&times;</span>
+        <img class="modal-content" id="doc_01">
+        <div id="caption_01"></div>
+    </div>
+
+    <div id="docx_01" class="modal">
+        <span id="doc01_close" class="close">&times;</span>
+        <img class="modal-content" id="doc_02">
+        <div id="caption_02"></div>
+    </div>
+
+    <div id="docx_02" class="modal">
+        <span id="doc02_close" class="close">&times;</span>
+        <img class="modal-content" id="doc_03">
+        <div id="caption_03"></div>
+    </div>
+
+    <div id="docx_03" class="modal">
+        <span id="doc03_close" class="close">&times;</span>
+        <img class="modal-content" id="doc_04">
+        <div id="caption_04"></div>
+    </div>
+
+    <div id="docx_edit" class="modal">
+        <span id="edit_close" class="close">&times;</span>
+        <img class="modal-content" id="doc_05">
+        <div id="caption_05"></div>
+    </div>
+
+    <div class="project_h text-center">
+        <h2>Doc-Creator</h2>
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-left: 5%;margin-right: auto; background-color: #EEE;">
+            <div class="column" style="padding: 2%;">
+                <p style="font-size: 1rem;"></br>
+                    1) Page organzer and ebook Creator App</br>
+                    2) Load from -- 1) Gallery 2)Folder 3)Camera Intent </br>
+                    3) Organize Images in grid layout </br>
+                    4) Merge ,add, remove, split pdf documents </br>
+                    5) Insert Page Number autmatically </br>
+                    6) Save as ebook
+            </div>
+
+            <div class="column">
+                <div class="row">
+                    <!-- <video style="padding: 1%;" width = "100" height="400" controls poster="./project_assets/doc_creator_thumb.png"
+                        class="embed-responsive-divide" src="./project_assets/DocCreator/Scan_doc_01.mp4"
+                        type="video/mp4">
+                    </video> -->
+
+                    <iframe width="250" height="400"
+                        src="https://www.youtube.com/embed/EVbtYn0owsA?rel=1&autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe width="250" height="400" src="https://www.youtube.com/embed/zJMRwn3T2ms?rel=1&autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+
+                    <!-- <video style="padding: 1%;" width="100" height="400" controls
+                        poster="./project_assets/doc_creator_thumb.png" class="embed-responsive-divide"
+                        src="./project_assets/DocCreator/Scan_doc_02.mp4" type="video/mp4">
+                    </video> -->
+                </div>
+            </div>
+            <div class="row">
+                <h4 class="screenshot">Screenshots</h4>
+                <img style="padding-left: 1%; width: 40%;" id="doc_creator_ui"
+                    src="project_assets/DocCreator/scan_img_01.png" alt="Doc Creator UI" class="img-responsive">
+                <img style="padding-left: 1%; width: 60%;" id="doc_creator_tools_01"
+                    src="project_assets/DocCreator/scan_img_02.png" alt="Doc Creator Tools 01" class="img-responsive">
+            </div>
+
+            <div class="row">
+                <img style="padding-left:1%;width:75%;" id="doc_creator_tools_02"
+                    src="project_assets/DocCreator/scan_img_03.png" alt="Doc Creator Tools 02" class="img-responsive">
+            </div>
+
+            <div class="row">
+                <img style="padding-left:1%; width: 50%;" id="doc_creator_tools_03"
+                    src="project_assets/DocCreator/scan_img_04.png" alt="Doc Creator Tools 03" class="img-responsive">
+                <img style="padding-left:1%; width:50%;" id="doc_creator_pdf_edit"
+                    src="project_assets/DocCreator/pdf_edit.png" alt="Doc Creator Tools 04" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- class="embed-responsive embed-responsive-16by9" -->
+    <div class="pagination">
+        <a href="./v_audio_player.html">&laquo;</a>
+        <a href="./v_audio_player.html">1</a>
+        <a id="item_active" href="./doc_creator.html">2</a>
+        <a href="./image_editor.html">3</a>
+        <a href="./calculator.html">4</a>
+        <a href="./length_optimizer_v1.html">5</a>
+        <a href="./udemy_projects.html">6</a>
+        <a href="./other_projects.html">7</a>
+        <a href="./other_projects.html">&raquo;</a>
+    </div>
+
+    <script src="./doc_creator.js"></script>
+</body>
+
+</html>
