@@ -4,8 +4,8 @@ body{
   background-color: white;/*#DBE2EF;*/
   color: black;
   font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
 }
-
 
 canvas{
   background-color: #222831;
@@ -13,8 +13,6 @@ canvas{
   height: auto;
   z-index: 2;
 }
-
-
 
 .container main{
   max-width:80%;
@@ -278,13 +276,14 @@ canvas{
     border-width: 10px;
     border-color: aqua;
     border-radius: 5% 5% 0% 0%;
+
 }
 
 
 .card{
   color: #000;
   background-color: #EEEEEE;
-  border-radius: 5%;
+  border-radius: 5% 5% 5% 5%;
   border-color: #3F72AF;
   /* #00ADB5; */
   border-width: 3px;
@@ -427,64 +426,70 @@ footer{
       font-size: 4em;
       padding:2em;
       }
-      }
+  }
     
     
-    @media (max-width: 768px) {
-      .carousel-caption{
-        top: 45%;
-      
-      }
-      
-      .carousel-caption h1{
-       font-size: 350%;
-      
-      }
-      
-      .carousel-caption h3 {
-        font-size: 140%;
-        font-weight: 400%;
-        padding-bottom: 0.2rem;
-      }
-    
-      .carousel-caption .btn{
-        font-size: 95%;
-        padding: 8px 14px;
-      }
-    
-    
-      .display-4{
-        font-size: 110%;
-      }
-    
-      .social a{
-        font-size: 2.5em;
-        padding:1.2em;
-        }
-      
+@media (max-width: 768px) {
+    .carousel-caption{
+      top: 45%;    
     }
+      
+    .carousel-caption h1{
+      font-size: 350%;
+    }
+      
+    .carousel-caption h3 {
+      font-size: 140%;
+      font-weight: 400%;
+      padding-bottom: 0.2rem;
+   }
+    
+   .carousel-caption .btn{
+      font-size: 95%;
+      padding: 8px 14px;
+    }
+    
+    
+    .display-4{
+      font-size: 110%;
+    }
+    
+    .social a{
+      font-size: 2.5em;
+      padding:1.2em;
+    }
+      
+  }
     
     @media (max-width: 576px) {
       .carousel-caption{
         top: 40%;
       }
+
+      body{
+        /* background-color:  #393E46; */
+        background-color: white;/*#DBE2EF;*/
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        overflow-x: hidden;
+      }
     
       .carousel-caption h1{
         font-size: 200%;
-       
       }
 
+      .col-sm-4{
+       padding-top: 5%;
+      }
 
       .carousel-caption h3{
         font-size: 150%;
       }
-    
+
       .carousel-caption .btn{
         display: none;
       }
-      
- 
-      
+
       .display-4{
         font-size: 160%;
       }
@@ -492,7 +497,7 @@ footer{
       .social a{
         font-size: 1em;
         padding: 0.7rem;
-        }
+     }
 
 
       .fa{
@@ -501,12 +506,13 @@ footer{
       }
 
       .project_h{
+        width: 100%;
         padding-top: 2%;
         padding-bottom: 2%;
         font-size:larger;
         background-color: #3F72AF;
         /* #00ADB5; */
-        margin-left: 0%;
+        margin-left: auto;
         margin-right: 0%;
         color: #fff;
         text-transform: uppercase;
@@ -515,7 +521,6 @@ footer{
 
       .img{
         max-height: 70px;
-
       }
     }
     

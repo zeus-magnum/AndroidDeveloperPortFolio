@@ -33,19 +33,19 @@ window.addEventListener('mousemove', function (event) {
 
 
 if(576 < canvas.width){
-    adjustX = (canvas.width*0.2)/25;
-    adjustX = 18
+    adjustX = (canvas.width*0.20)/25;
     adjustY = 12;
     ctx.fillStyle = 'white';
     ctx.font = "25px Verdana";
     ctx.fillText('{|| || ||}', 0, 25);
 
 }else{
-    adjustX = 10;
+    // adjustX = (canvas.width*0.8)/25;
+    adjustX = 5;
     adjustY = 15;
     ctx.fillStyle = 'white';
-    ctx.font = "18px Verdana";
-    ctx.fillText('{ || }', 0, 25);
+    ctx.font = "15px Verdana";
+    // ctx.fillText('||||||', 0, 25);
 }
 
 const textCoordinates = ctx.getImageData(0, 0, 300, 100);
