@@ -100,7 +100,7 @@ body{
   /* Style the Image Used to Trigger the Modal ----------------------------------------------*/
 #img_editor_ui, #img_trans, #img_color, #img_paint, #img_filter, #cal_01, #cal_02, #audio_01, #audio_02, #audio_03, 
 #audio_04, #len_optimizer_v1_01, #len_optimizer_v1_02, #len_optimizer_v2_01, #len_optimizer_v2_02, #len_optimizer_v2_03, #len_optimizer_v2_04,
-#doc_creator_ui, #doc_creator_tools_01, #doc_creator_02, #doc_creator_03, #doc_creator_pdf_edit{
+#doc_creator_ui, #doc_creator_tools_01, #doc_creator_02, #doc_creator_03, #doc_creator_pdf_edit, #cal_01{
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -112,7 +112,6 @@ body{
 #img_paint:hover {opacity: 0.7;}
 #img_filter:hover {opacity: 0.7;}
 #cal_01:hover {opacity: 0.7;}
-#cal_02:hover {opacity: 0.7;}
 #audio_01:hover{opacity: 0.7;}
 #audio_02:hover{opacity: 0.7;}
 #audio_03:hover{opacity: 0.7;}
@@ -128,6 +127,7 @@ body{
 #doc_creator_tools_02:hover{opacity: 0.7;}
 #doc_creator_tools_03:hover{opacity: 0.7;}
 #doc_creator_pdf_edit:hover{opacity: 0.7;}
+
 
 
 
